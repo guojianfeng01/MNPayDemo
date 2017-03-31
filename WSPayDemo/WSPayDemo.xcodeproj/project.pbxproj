@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EC9E7811E8E66CF004A75C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9E7801E8E66CF004A75C0 /* main.m */; };
+		6EC9E7841E8E66CF004A75C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9E7831E8E66CF004A75C0 /* AppDelegate.m */; };
+		6EC9E7871E8E66CF004A75C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9E7861E8E66CF004A75C0 /* ViewController.m */; };
+		6EC9E78A1E8E66CF004A75C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9E7881E8E66CF004A75C0 /* Main.storyboard */; };
+		6EC9E78C1E8E66CF004A75C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9E78B1E8E66CF004A75C0 /* Assets.xcassets */; };
+		6EC9E78F1E8E66CF004A75C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC9E78D1E8E66CF004A75C0 /* LaunchScreen.storyboard */; };
+		6EC9E79A1E8E66CF004A75C0 /* WSPayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9E7991E8E66CF004A75C0 /* WSPayDemoTests.m */; };
+		6EC9E7A51E8E66CF004A75C0 /* WSPayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC9E7A41E8E66CF004A75C0 /* WSPayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EC9E7961E8E66CF004A75C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC9E7741E8E66CF004A75C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC9E77B1E8E66CF004A75C0;
+			remoteInfo = WSPayDemo;
+		};
+		6EC9E7A11E8E66CF004A75C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC9E7741E8E66CF004A75C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EC9E77B1E8E66CF004A75C0;
+			remoteInfo = WSPayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EC9E77C1E8E66CF004A75C0 /* WSPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC9E7801E8E66CF004A75C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EC9E7821E8E66CF004A75C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EC9E7831E8E66CF004A75C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EC9E7851E8E66CF004A75C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EC9E7861E8E66CF004A75C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EC9E7891E8E66CF004A75C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EC9E78B1E8E66CF004A75C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EC9E78E1E8E66CF004A75C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EC9E7901E8E66CF004A75C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC9E7951E8E66CF004A75C0 /* WSPayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSPayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC9E7991E8E66CF004A75C0 /* WSPayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPayDemoTests.m; sourceTree = "<group>"; };
+		6EC9E79B1E8E66CF004A75C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC9E7A01E8E66CF004A75C0 /* WSPayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSPayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC9E7A41E8E66CF004A75C0 /* WSPayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSPayDemoUITests.m; sourceTree = "<group>"; };
+		6EC9E7A61E8E66CF004A75C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EC9E7791E8E66CF004A75C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9E7921E8E66CF004A75C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9E79D1E8E66CF004A75C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EC9E7731E8E66CF004A75C0 = {
+			isa = PBXGroup;
+			children = (
+				6EC9E77E1E8E66CF004A75C0 /* WSPayDemo */,
+				6EC9E7981E8E66CF004A75C0 /* WSPayDemoTests */,
+				6EC9E7A31E8E66CF004A75C0 /* WSPayDemoUITests */,
+				6EC9E77D1E8E66CF004A75C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EC9E77D1E8E66CF004A75C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9E77C1E8E66CF004A75C0 /* WSPayDemo.app */,
+				6EC9E7951E8E66CF004A75C0 /* WSPayDemoTests.xctest */,
+				6EC9E7A01E8E66CF004A75C0 /* WSPayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC9E77E1E8E66CF004A75C0 /* WSPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9E7821E8E66CF004A75C0 /* AppDelegate.h */,
+				6EC9E7831E8E66CF004A75C0 /* AppDelegate.m */,
+				6EC9E7851E8E66CF004A75C0 /* ViewController.h */,
+				6EC9E7861E8E66CF004A75C0 /* ViewController.m */,
+				6EC9E7881E8E66CF004A75C0 /* Main.storyboard */,
+				6EC9E78B1E8E66CF004A75C0 /* Assets.xcassets */,
+				6EC9E78D1E8E66CF004A75C0 /* LaunchScreen.storyboard */,
+				6EC9E7901E8E66CF004A75C0 /* Info.plist */,
+				6EC9E77F1E8E66CF004A75C0 /* Supporting Files */,
+			);
+			path = WSPayDemo;
+			sourceTree = "<group>";
+		};
+		6EC9E77F1E8E66CF004A75C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9E7801E8E66CF004A75C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EC9E7981E8E66CF004A75C0 /* WSPayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9E7991E8E66CF004A75C0 /* WSPayDemoTests.m */,
+				6EC9E79B1E8E66CF004A75C0 /* Info.plist */,
+			);
+			path = WSPayDemoTests;
+			sourceTree = "<group>";
+		};
+		6EC9E7A31E8E66CF004A75C0 /* WSPayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EC9E7A41E8E66CF004A75C0 /* WSPayDemoUITests.m */,
+				6EC9E7A61E8E66CF004A75C0 /* Info.plist */,
+			);
+			path = WSPayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EC9E77B1E8E66CF004A75C0 /* WSPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC9E7A91E8E66CF004A75C0 /* Build configuration list for PBXNativeTarget "WSPayDemo" */;
+			buildPhases = (
+				6EC9E7781E8E66CF004A75C0 /* Sources */,
+				6EC9E7791E8E66CF004A75C0 /* Frameworks */,
+				6EC9E77A1E8E66CF004A75C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSPayDemo;
+			productName = WSPayDemo;
+			productReference = 6EC9E77C1E8E66CF004A75C0 /* WSPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EC9E7941E8E66CF004A75C0 /* WSPayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC9E7AC1E8E66CF004A75C0 /* Build configuration list for PBXNativeTarget "WSPayDemoTests" */;
+			buildPhases = (
+				6EC9E7911E8E66CF004A75C0 /* Sources */,
+				6EC9E7921E8E66CF004A75C0 /* Frameworks */,
+				6EC9E7931E8E66CF004A75C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC9E7971E8E66CF004A75C0 /* PBXTargetDependency */,
+			);
+			name = WSPayDemoTests;
+			productName = WSPayDemoTests;
+			productReference = 6EC9E7951E8E66CF004A75C0 /* WSPayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EC9E79F1E8E66CF004A75C0 /* WSPayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC9E7AF1E8E66CF004A75C0 /* Build configuration list for PBXNativeTarget "WSPayDemoUITests" */;
+			buildPhases = (
+				6EC9E79C1E8E66CF004A75C0 /* Sources */,
+				6EC9E79D1E8E66CF004A75C0 /* Frameworks */,
+				6EC9E79E1E8E66CF004A75C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EC9E7A21E8E66CF004A75C0 /* PBXTargetDependency */,
+			);
+			name = WSPayDemoUITests;
+			productName = WSPayDemoUITests;
+			productReference = 6EC9E7A01E8E66CF004A75C0 /* WSPayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EC9E7741E8E66CF004A75C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = guojianfeng;
+				TargetAttributes = {
+					6EC9E77B1E8E66CF004A75C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6EC9E7941E8E66CF004A75C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EC9E77B1E8E66CF004A75C0;
+					};
+					6EC9E79F1E8E66CF004A75C0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EC9E77B1E8E66CF004A75C0;
+					};
+				};
+			};
+			buildConfigurationList = 6EC9E7771E8E66CF004A75C0 /* Build configuration list for PBXProject "WSPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EC9E7731E8E66CF004A75C0;
+			productRefGroup = 6EC9E77D1E8E66CF004A75C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EC9E77B1E8E66CF004A75C0 /* WSPayDemo */,
+				6EC9E7941E8E66CF004A75C0 /* WSPayDemoTests */,
+				6EC9E79F1E8E66CF004A75C0 /* WSPayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EC9E77A1E8E66CF004A75C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC9E78F1E8E66CF004A75C0 /* LaunchScreen.storyboard in Resources */,
+				6EC9E78C1E8E66CF004A75C0 /* Assets.xcassets in Resources */,
+				6EC9E78A1E8E66CF004A75C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9E7931E8E66CF004A75C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9E79E1E8E66CF004A75C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EC9E7781E8E66CF004A75C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC9E7871E8E66CF004A75C0 /* ViewController.m in Sources */,
+				6EC9E7841E8E66CF004A75C0 /* AppDelegate.m in Sources */,
+				6EC9E7811E8E66CF004A75C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9E7911E8E66CF004A75C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC9E79A1E8E66CF004A75C0 /* WSPayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC9E79C1E8E66CF004A75C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC9E7A51E8E66CF004A75C0 /* WSPayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EC9E7971E8E66CF004A75C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC9E77B1E8E66CF004A75C0 /* WSPayDemo */;
+			targetProxy = 6EC9E7961E8E66CF004A75C0 /* PBXContainerItemProxy */;
+		};
+		6EC9E7A21E8E66CF004A75C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EC9E77B1E8E66CF004A75C0 /* WSPayDemo */;
+			targetProxy = 6EC9E7A11E8E66CF004A75C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EC9E7881E8E66CF004A75C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC9E7891E8E66CF004A75C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EC9E78D1E8E66CF004A75C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EC9E78E1E8E66CF004A75C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EC9E7A71E8E66CF004A75C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EC9E7A81E8E66CF004A75C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EC9E7AA1E8E66CF004A75C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WSPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EC9E7AB1E8E66CF004A75C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSPayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WSPayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EC9E7AD1E8E66CF004A75C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WSPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSPayDemo.app/WSPayDemo";
+			};
+			name = Debug;
+		};
+		6EC9E7AE1E8E66CF004A75C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WSPayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WSPayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSPayDemo.app/WSPayDemo";
+			};
+			name = Release;
+		};
+		6EC9E7B01E8E66CF004A75C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WSPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSPayDemo;
+			};
+			name = Debug;
+		};
+		6EC9E7B11E8E66CF004A75C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WSPayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WSPayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WSPayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EC9E7771E8E66CF004A75C0 /* Build configuration list for PBXProject "WSPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC9E7A71E8E66CF004A75C0 /* Debug */,
+				6EC9E7A81E8E66CF004A75C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EC9E7A91E8E66CF004A75C0 /* Build configuration list for PBXNativeTarget "WSPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC9E7AA1E8E66CF004A75C0 /* Debug */,
+				6EC9E7AB1E8E66CF004A75C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EC9E7AC1E8E66CF004A75C0 /* Build configuration list for PBXNativeTarget "WSPayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC9E7AD1E8E66CF004A75C0 /* Debug */,
+				6EC9E7AE1E8E66CF004A75C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EC9E7AF1E8E66CF004A75C0 /* Build configuration list for PBXNativeTarget "WSPayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EC9E7B01E8E66CF004A75C0 /* Debug */,
+				6EC9E7B11E8E66CF004A75C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EC9E7741E8E66CF004A75C0 /* Project object */;
+}
