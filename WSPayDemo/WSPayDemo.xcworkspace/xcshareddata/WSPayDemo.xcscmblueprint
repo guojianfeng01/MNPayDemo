@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EE359FFBF3070C65337C7DCBEC3298C8085B7553",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "87C3F0F03497C728F7DE1F2A53B54323F1AFB52C" : 9223372036854775807,
+    "EE359FFBF3070C65337C7DCBEC3298C8085B7553" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "16885D28-DFBC-46E2-BCD0-0F353304DC1B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "87C3F0F03497C728F7DE1F2A53B54323F1AFB52C" : "..\/gitlab\/MNDataBank",
+    "EE359FFBF3070C65337C7DCBEC3298C8085B7553" : "MNPayDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WSPayDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WSPayDemo\/WSPayDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "115.29.209.185:databank\/MNDataBank.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87C3F0F03497C728F7DE1F2A53B54323F1AFB52C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/guojianfeng01\/MNPayDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE359FFBF3070C65337C7DCBEC3298C8085B7553"
+    }
+  ]
+}

@@ -1,12 +1,18 @@
 PODS:
+  - JSONKit-NoWarning (1.2)
+  - JSONModel (1.7.0)
   - Masonry (1.0.2)
 
 DEPENDENCIES:
+  - JSONKit-NoWarning
+  - JSONModel
   - Masonry
 
 SPEC CHECKSUMS:
+  JSONKit-NoWarning: 3d27e6f9e6846ecf741e8c64dcadd7d5aa7193cb
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: ee34e1a8833cc412cb96735bb1664db06ac0fca3
+PODFILE CHECKSUM: b388ef35e598c7558fe0f435f6cc1099edee8c06
 
 COCOAPODS: 1.1.1
