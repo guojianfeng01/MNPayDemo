@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WSTestTableViewController.h
 //  WSPayDemo
 //
 //  Created by guojianfeng on 17/3/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WSTestTableViewController : UITableViewController
 
 @end
-
