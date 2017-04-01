@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "WSTradeHelper.h"
+#import "WSWechatHelper.h"
 #import "WSTestTableViewController.h"
 
 @interface AppDelegate ()
@@ -51,6 +53,26 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    if ([url.host isEqualToString:@"safepay"]) {
+        return [[WSTradeHelper sharedInstance] applicationOpenURL:url];
+    }else if ([[url scheme] isEqualToString:@"kWechtAppId"]){
+        return [[WSWechatHelper sharedInstance] applicationOpenURL:url];
+    }
+    return NO;
+}
+
+#ifdef  __IPHONE_9_0
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options{
+    if ([url.host isEqualToString:@"safepay"]) {
+        return [[WSTradeHelper sharedInstance] applicationOpenURL:url];
+    }else if ([[url scheme] isEqualToString:@"kWechtAppId"]){
+        return [[WSWechatHelper sharedInstance] applicationOpenURL:url];
+    }
+    return NO;
+}
+#endif
 
 - (UIWindow *)window{
     if (!_window) {

@@ -51,7 +51,7 @@
 - (void)aliPayWithOrderModel:(WSAliPayOrderModel *)aliPayOrderModel
              completionBlock:(WSPayCompletionBlock)completionBlock{
     NSString *appPubURLScheme = [WSUsrHelper sharedInstance].appPubURLScheme;
-    NSAssert(appPubURLScheme != nil, @"manaPubURLScheme must not be nil!");
+    NSAssert(appPubURLScheme != nil, @"appPubURLScheme must not be nil!");
     self.alipayPayBlock = completionBlock;
     [[AlipaySDK defaultService] payOrder:aliPayOrderModel.orderInfo fromScheme:appPubURLScheme callback:^(NSDictionary *resultDic) {
         NSInteger code = [resultDic[@"resultStatus"] integerValue];
@@ -128,7 +128,6 @@
 }
 
 - (void)payWithMPPrePayInfoModel:(WSPrePayInfoModel *)prePayInfoModel
-                     payPassword:(NSString *)payPassword
                  platformPayType:(WSPayType)payType
                  completionBlock:(WSPayCompletionBlock)completionBlock{
     switch (payType) {

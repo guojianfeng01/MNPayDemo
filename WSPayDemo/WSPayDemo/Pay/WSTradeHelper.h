@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <JSONModel/JSONModel.h>
-
 //此模型是自己服务器公司支付所需模型
 @interface WSPrePayInfoModel : JSONModel
 #pragma mark - 支付参数
@@ -74,12 +73,10 @@ typedef void (^WSCompleteBlock)(id response, id result);
  支付和充值业务
  
  @param prePayInfoModel 支付前预数据模型
- @param payPassword 支付密码,余额支付时有效
  @param payType 支付平台类型
  @param completionBlock 支付完成的结果回调
  */
 - (void)payWithMPPrePayInfoModel:(WSPrePayInfoModel *)prePayInfoModel
-                     payPassword:(NSString *)payPassword
                  platformPayType:(WSPayType)payType
                  completionBlock:(WSPayCompletionBlock)completionBlock;
 @end
